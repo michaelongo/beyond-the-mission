@@ -1,0 +1,47 @@
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #f4f3ef;
+  background: #05080d;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color-scheme: dark;
+  --color-ink: #05080d;
+  --color-paper: #f4f3ef;
+  --color-muted: rgba(244, 243, 239, 0.66);
+  --color-rule: rgba(244, 243, 239, 0.25);
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-interface: 'DM Sans', sans-serif;
+  font-synthesis: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--color-ink);
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+a {
+  color: inherit;
+  font: inherit;
+}
